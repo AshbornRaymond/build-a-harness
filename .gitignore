@@ -1,0 +1,19 @@
+# Environments and credentials
+.env
+.venv/
+env/
+venv/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+
+# Traces (large output logs)
+traces/*.jsonl
+
+# Operating System files
+.DS_Store
+Thumbs.db
